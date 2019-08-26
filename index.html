@@ -110,7 +110,7 @@
     <div>
   </div>
   <script>
-    var NAME = location.pathname.replace(/^\//,'');
+    var NAME = decodeURIComponent(location.pathname.replace(/^\//,''));
 
     var soundboardMediaUrl = "./";
 
