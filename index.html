@@ -110,7 +110,8 @@
     <div>
   </div>
   <script>
-    var NAME = "test";
+    var NAME = location.pathname.replace(/^\//,'');
+
     var soundboardMediaUrl = "./";
 
     var startAudio = new Audio(soundboardMediaUrl+"sounds/start.mp3");
