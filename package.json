@@ -1,0 +1,26 @@
+{
+  "name": "and-his-name-is",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:alexjpaz-playground/and-his-name-is.git",
+  "author": "Alexander Paz <alexjpaz@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "mocha --recursive 'src/**/*.spec.js'",
+    "build": "webpack -p"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jsdom": "^15.1.1",
+    "mocha": "^6.2.0",
+    "sinon": "^7.4.1",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
